@@ -5,7 +5,7 @@ body{
     background-color: #BEFF8A;
 }
 
-nav{
+.container {
     background-color: antiquewhite;
     text-align: center;
 }
@@ -13,3 +13,23 @@ nav{
 #font{
     font-family: 'Montserrat', sans-serif;
 }
+
+nav ul li {
+    list-style-type: none;
+}
+
+.grid-body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.flex-list {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-list a {
+    padding: 10px;
+    display: inline-block;
+}
+
