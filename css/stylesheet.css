@@ -39,7 +39,12 @@ ul {
 }
 
 .courses {
+    margin-top: 16px;
     border-bottom: solid antiquewhite;
+}
+
+#noborder {
+    border-bottom: none;
 }
 
 @media (min-width: 600px){
@@ -48,7 +53,14 @@ ul {
     }
     .courses {
         border-bottom: solid black;
+        display: grid;
+        grid-template-columns: 1fr 2fr;      
     }
-    
+    .item2 {
+        grid-row: 2;
+    }
+    .item3 {
+        grid-column: 2;
+    }
 }
 
