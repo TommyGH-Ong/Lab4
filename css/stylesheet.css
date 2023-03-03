@@ -25,6 +25,7 @@ ul li {
 
 .flex-list {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -33,4 +34,21 @@ ul li {
     display: inline-block;
 }
 
+ul {
+    padding-left: 0;
+}
+
+.courses {
+    border-bottom: solid antiquewhite;
+}
+
+@media (min-width: 600px){
+    .flex-list {
+        flex-direction: row;
+    }
+    .courses {
+        border-bottom: solid black;
+    }
+    
+}
 
