@@ -14,3 +14,9 @@ let course3 = {
 };
 
 const courseList = [course1, course2,  course3];
+let user;
+do {
+    user = prompt("Enter the course number");
+    console.log(user.length)
+} while (isNaN(user) || user.length != 4);
+
